@@ -1,0 +1,97 @@
+body {
+  background-image: url("woodbg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: 'Permanent Marker', serif;
+}
+
+
+div {
+  border-radius: 10px;
+}
+
+h1 {
+  top: 20px;
+  font-family: 'Londrina Sketch', serif;
+  font-size: 120px;
+  color: #FFF;
+  letter-spacing: 25px;
+  line-height: 100px;
+}
+
+h2 {
+  font-family: 'Londrina Sketch', serif;
+  font-size: 45px;
+  letter-spacing: 15px;
+  color: #FFF;
+  top: 50px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 30px;
+  width: 300px;
+  font-size: 30px;
+  font-family: serif;
+  border-radius: 10px;
+  background-color: #90C3D4;
+  color: #FFF;
+  font-family: 'Permanent Marker', serif;
+  text-transform: uppercase;
+}
+
+
+#stuff {
+  height: 80%;
+  width: 70%;
+  margin: 0 auto;
+  background-color: none;
+}
+
+#board {
+  top: 90px;
+  float: right;
+  position: relative;
+}
+
+#rowOne, #rowTwo, #rowThree {
+  display: inline-block;
+}
+
+#textButton {
+  float: left;
+  position: relative;
+  top: 20px;
+}
+
+.tile {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px 5px;
+  background-color: #FFF;
+  line-height: 150px;
+  font-size: 135px;
+}
+
+.playerOneClass {
+  background-color: #90C3D4;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px 5px;
+  line-height: 150px;
+  font-size: 135px;
+  color: #FFF;
+}
+
+.playerTwoClass {
+  background-color: #FFF;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px 5px;
+  line-height: 150px;
+  font-size: 135px;
+  color: #90C3D4;;
+}
